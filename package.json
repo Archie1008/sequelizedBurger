@@ -1,0 +1,28 @@
+{
+  "name": "burger",
+  "version": "1.0.0",
+  "description": "Burger single page app",
+  "main": "test.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Archie1008/burger.git"
+  },
+  "author": "Artur Solyanyk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Archie1008/burger/issues"
+  },
+  "homepage": "https://github.com/Archie1008/burger#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "express-handlebars": "^3.0.0",
+    "method-override": "^2.3.9",
+    "mysql": "^2.13.0",
+    "sequelize": "^4.1.0"
+  }
+}
